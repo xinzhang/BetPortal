@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BetPortal.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -19,6 +20,15 @@ namespace BetPortal
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+        }
+
+        public static void LoadInitData()
+        {
+            IDataLoader dataLoader = new DataLoader();
+            BetRespository.Customers = dataLoader.LoadCustomerFromRest();
+            BetRespository.Bets = dataLoader.LoadBetsFromRest();
+            BetRespository.Races = dataLoader.LoadRacesFromRest();
+
         }
     }
 }

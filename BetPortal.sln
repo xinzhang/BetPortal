@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetPortal", "BetPortal\BetP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetPortal.Tests", "BetPortal.Tests\BetPortal.Tests.csproj", "{06AE544C-1758-4689-A3E6-60AF2E50D582}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetPortal.Entities", "BetPortal.Entities\BetPortal.Entities.csproj", "{CC79B428-852D-4ED7-B871-E0EB0246FAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{06AE544C-1758-4689-A3E6-60AF2E50D582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06AE544C-1758-4689-A3E6-60AF2E50D582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06AE544C-1758-4689-A3E6-60AF2E50D582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC79B428-852D-4ED7-B871-E0EB0246FAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC79B428-852D-4ED7-B871-E0EB0246FAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC79B428-852D-4ED7-B871-E0EB0246FAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC79B428-852D-4ED7-B871-E0EB0246FAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
